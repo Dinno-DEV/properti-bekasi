@@ -31,20 +31,14 @@ header img{
 }
 
 .opening-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 485px;
     background: hsl(0,0%,80%);
 }
-.opening-section div{
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    padding: 16%;
-    justify-content: center;
-}
-.opening-section h1{
-    margin: 0 0 13px;
+.opening-section h1, .opening-section p{
+    margin: 0 15% 13px;
 }
 .opening-section p{
     max-width: 400px;
