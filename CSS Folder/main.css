@@ -31,17 +31,18 @@ header img{
 }
 
 .opening-section{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 485px;
-    background: hsl(0,0%,80%);
+    box-sizing: border-box;
+    padding: 15%;
 }
 .opening-section h1, .opening-section p{
-    margin: 0 15% 13px;
+    margin-bottom: 13px;
 }
 .opening-section p{
-    max-width: 400px;
+    max-width: 350px;
+}
+.opening-section div{
+    width: fit-content;
+    margin-top: 23px;
 }
 
 .section{
@@ -55,7 +56,13 @@ header img{
     header img{
         display: none;
     }
+    .opening-section{
+        padding: 50% 15%;
+    }
     .opening-section h1, .opening-section p{
         text-align: center;
+    }
+    .opening-section div{
+        margin: 23px auto;
     }
 }

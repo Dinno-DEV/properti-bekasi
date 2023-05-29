@@ -1,4 +1,7 @@
 /*Background Colors*/
+.bg-main-2{
+    background-color: hsl(0, 0%, 80%);
+}
 .bg-sub{
     background-color: hsl(0,0%,17%);
 }

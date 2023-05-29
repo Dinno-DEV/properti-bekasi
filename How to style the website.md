@@ -17,3 +17,8 @@ The font color is the opposite of the background color (to make it readable.)
 
 ## layout.css uses percentage, it lays out things and its job is to keep things responsive.
 Layouts like divided by 3, or divided into 2, or 1 column layout is written there.
+
+## font-size is just there so you can change font-size in html quickly
+
+## buttons
+there are button container and the button itself. button container is just to give "size-change" effect.
