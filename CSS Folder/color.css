@@ -1,0 +1,23 @@
+/*Background Colors*/
+.bg-sub{
+    background-color: hsl(0,0%,17%);
+}
+.bg-highlight{
+    background-color: hsl(53, 100%, 54%);
+}
+
+/*Border Colors*/
+.bd-sub{
+    border-color: hsl(0,0%,17%);
+}
+.bd-highlight{
+    border-color: hsl(53, 100%, 54%);
+}
+
+/*Font Colors*/
+.font-sub{
+    color: white;
+}
+.font-highlight{
+    color: hsl(0,0%,17%);
+}
