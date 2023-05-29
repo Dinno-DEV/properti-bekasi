@@ -1,4 +1,7 @@
 /*Background Colors*/
+.bg-main-1{
+    background-color: white;
+}
 .bg-main-2{
     background-color: hsl(0, 0%, 80%);
 }
@@ -23,4 +26,26 @@
 }
 .font-highlight{
     color: hsl(0,0%,17%);
+}
+
+/*Shadow*/
+.sd-extra{
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.sd-medium{
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.sd-small{
+    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+}
+
+/*Text Shadow*/
+.tsd-extra{
+    text-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+.tsd-medium{
+    text-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+.tsd-small{
+    text-shadow: 0 2px 5px rgba(0,0,0,0.8);
 }

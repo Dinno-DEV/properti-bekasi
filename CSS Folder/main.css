@@ -12,9 +12,12 @@ p{
 }
 
 header{
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 1;
+    top: 0;
     padding: 6px 0;
     border-bottom: 2px solid;
-    box-shadow: 0 0 25px rgba(0,0,0,0.8);
 }
 header h1{
     text-align: center;
@@ -32,9 +35,14 @@ header img{
 
 .opening-section{
     box-sizing: border-box;
-    padding: 15%;
+    padding: 10%;
+    background-image: url(../background.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .opening-section h1, .opening-section p{
+    width: fit-content;
     margin-bottom: 13px;
 }
 .opening-section p{
@@ -43,13 +51,6 @@ header img{
 .opening-section div{
     width: fit-content;
     margin-top: 23px;
-}
-
-.section{
-    width: 58%;
-    height: 1000px;
-    background: hsl(0,0%,80%);
-    margin: 315px auto;
 }
 
 @media screen and (max-width: 600px){
@@ -61,6 +62,8 @@ header img{
     }
     .opening-section h1, .opening-section p{
         text-align: center;
+        margin: 0 auto 13px;
+        max-width: 100%;
     }
     .opening-section div{
         margin: 23px auto;
