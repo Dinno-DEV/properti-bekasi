@@ -37,7 +37,7 @@ header img{
     box-sizing: border-box;
     padding: 10%;
     background-image: url(../background.jpg);
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,7 +64,7 @@ header img{
     .opening-section h1, .opening-section p{
         text-align: center;
         margin: 0 auto 13px;
-        max-width: 90%;
+        max-width: 90vw;
     }
     .opening-section div{
         margin: 23px auto;
