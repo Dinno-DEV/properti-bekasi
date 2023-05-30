@@ -37,6 +37,7 @@ header img{
     box-sizing: border-box;
     padding: 10%;
     background-image: url(../background.jpg);
+    background-position: center;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: cover;
@@ -67,6 +68,7 @@ header img{
         max-width: 90vw;
     }
     .opening-section div{
+        padding: inherit 30px;
         margin: 23px auto;
     }
 }
