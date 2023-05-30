@@ -49,6 +49,7 @@ header img{
     max-width: 350px;
 }
 .opening-section div{
+    box-sizing: border-box;
     width: fit-content;
     margin-top: 23px;
 }
@@ -58,12 +59,12 @@ header img{
         display: none;
     }
     .opening-section{
-        padding: 50% 15%;
+        padding: 50% 3%;
     }
     .opening-section h1, .opening-section p{
         text-align: center;
         margin: 0 auto 13px;
-        max-width: 100%;
+        max-width: 90%;
     }
     .opening-section div{
         margin: 23px auto;
