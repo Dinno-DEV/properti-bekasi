@@ -11,6 +11,12 @@
 .bg-highlight{
     background-color: hsl(53, 100%, 54%);
 }
+.bg-green{
+    background-color: hsl(142, 70%, 49%);
+}
+.bg-blue{
+    background-color: rgb(140, 140, 237);
+}
 
 /*Border Colors*/
 .bd-sub{
@@ -23,6 +29,9 @@
 /*Font Colors*/
 .font-sub{
     color: white;
+}
+.font-sub-2{
+    color: hsl(0, 0%, 30%);
 }
 .font-highlight{
     color: hsl(0,0%,17%);

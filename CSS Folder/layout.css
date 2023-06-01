@@ -17,11 +17,31 @@
     width: 50%;
 }
 
-@media screen and (max-width: 600px){
+.two-third{
+    float: left;
+    width: 66.66%;
+}
+.one-third{
+    float: left;
+    width: 33.33%;
+}
+
+@media screen and (max-width: 850px){
     .halved{
         width: 100%;
     }
     .card{
         padding: 50px 30px 30px;
+    }
+
+    .two-third{
+        width: 100%;
+    }
+    .one-third{
+        width: 100%;
+    }
+
+    .flex-horizontal{
+        flex-direction: column;
     }
 }

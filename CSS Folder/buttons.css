@@ -22,3 +22,9 @@
 .button-sub-container:active{
     transform: scale(0.95);
 }
+
+/* Custom button */
+.circle{
+    border-radius: 100px;
+    padding: 8px;
+}
