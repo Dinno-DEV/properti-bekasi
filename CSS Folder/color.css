@@ -19,6 +19,9 @@
 }
 
 /*Border Colors*/
+.bd-main-2{
+    border-color: hsl(0, 0%, 80%);
+}
 .bd-sub{
     border-color: hsl(0,0%,17%);
 }
@@ -39,13 +42,13 @@
 
 /*Shadow*/
 .sd-extra{
-    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
 }
 .sd-medium{
-    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.3);
 }
 .sd-small{
-    box-shadow: 0 2px 5px rgba(0,0,0,0.8);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
 }
 
 /*Text Shadow*/
