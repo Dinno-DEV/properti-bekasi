@@ -65,7 +65,7 @@ header img{
     width: fit-content;
 }
 .opening-description > h1, .opening-description > div{
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 .opening-description > p{
     margin-bottom: 15px;
@@ -140,7 +140,8 @@ header img{
     background-size: cover;
 }
 
-.contact-container{
+.contact-container > a{
+    width: fit-content;
     display: flex;
     margin:2px;
     align-items: center;
