@@ -61,7 +61,7 @@ nav:hover{
     z-index: 1;
     width: 0%;
     height: 100%;
-    transition: width 0.1s;
+    transition: width 1ms;
 }
 nav:hover ~ .safe-touch{
     width: 100%;
@@ -207,13 +207,14 @@ nav:hover ~ .safe-touch{
 .post{
     overflow: hidden;
     border-radius: 10px;
+    width: 100%;
     height: 270px;
-    margin: 20px 0;
+    margin: 20px 0 20px 0;
     box-shadow: 0 0px 50px rgba(0,0,0,0.2);
-    transition: transform 0.4s;
+    transition: margin 0.4s;
 }
-.post:active{
-    transform: scale(1.03);
+.post:hover{
+    margin: 20px 0 20px 2%;
 }
 .post article{
     box-sizing: border-box;
@@ -299,6 +300,9 @@ nav:hover ~ .safe-touch{
     }
     .post{
         height: max-content;
+    }
+    .post:hover{
+        margin: 20px 0 20px 0;
     }
     section.post.flex-horizontal{
         flex-direction: column-reverse;
