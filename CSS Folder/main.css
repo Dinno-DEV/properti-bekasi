@@ -54,6 +54,19 @@ nav{
 nav:hover{
     transform: translate(0);
 }
+.safe-touch{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    width: 0%;
+    height: 100%;
+    transition: width 0.1s;
+}
+nav:hover ~ .safe-touch{
+    width: 100%;
+}
+
 .dropdown-button{
     align-items: center;
     text-align: left;
@@ -80,7 +93,7 @@ nav:hover{
     list-style-type: none;
 }
 .project-list h1{
-    margin-bottom: 21px;
+    margin: 21px 0;
 }
 .project-list li{
     position: relative;
@@ -110,10 +123,13 @@ nav:hover{
     transition: opacity 0.8s;
 }
 .project-list li:hover{
-    width: 110%;
+    width: 105%;
 }
 .project-list li:hover::before{
     opacity: 1;
+}
+.project-list li:active{
+    width: 110%;
 }
 .project-list a{
     display: flex;
@@ -196,7 +212,7 @@ nav:hover{
     box-shadow: 0 0px 50px rgba(0,0,0,0.2);
     transition: transform 0.4s;
 }
-.post:hover{
+.post:active{
     transform: scale(1.03);
 }
 .post article{
