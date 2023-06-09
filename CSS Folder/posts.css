@@ -75,14 +75,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    margin: 40px 0;
+    margin: 50px 0;
 }
 .icon-wrapper{
     width: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 30px;
 }
 .icon-container{
     box-sizing: border-box;
@@ -94,6 +94,9 @@
     border-radius: 100%;
     text-align: center;
     justify-content: center;
+}
+.icon-container > p{
+    margin-top: 10px;
 }
 .icon-text{
     margin-top: 10px;
