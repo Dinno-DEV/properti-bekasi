@@ -26,6 +26,9 @@
     width: 33.33%;
 }
 
+.float-left{
+    float: left;
+}
 @media screen and (max-width: 850px){
     .halved{
         width: 100%;
@@ -43,5 +46,12 @@
 
     .flex-horizontal{
         flex-direction: column;
+    }
+    .phone-halved{
+        float: left;
+        width: 50%;
+    }
+    .phone-full-width{
+        width: 100%;
     }
 }
