@@ -1,0 +1,70 @@
+
+/* POST OPENING TITLE */
+.post-opening-title{
+    content: "";
+    box-sizing: border-box;
+    padding: 10% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.post-opening-title div{
+    width: 20%;
+    position: relative;
+    align-items: center;
+    background-color: hsla(0,0%,0%,0.7);
+    padding: 5% 0;
+    border-radius: 20px;
+    margin: auto;
+}
+.post-opening-title h1{
+    width: fit-content;
+    margin: auto;
+}
+.post-opening-title img{
+    width: 70%;
+    margin: auto;
+}
+
+/* LIST FASILITAS */
+.list-fasilitas-positioner{
+    margin-top: 22%;
+}
+.list-fasilitas-title{
+    margin-bottom: 2%;
+    text-align: center;
+}
+.list-fasilitas{
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+.list-fasilitas > div{
+    box-sizing: border-box;
+    padding: 10px;
+}
+.list-fasilitas div div{
+    position: relative;
+    text-align: center;
+    height: 370px;
+    background-size: cover;
+    border-radius: 15px;
+}
+.list-fasilitas div div div{
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    margin: auto;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.list-fasilitas h1, .list-fasilitas p{
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 80%;
+    margin-top: 5px;
+    background: hsla(0,0%,0%,0.8);
+    padding: 8px 25px;
+    letter-spacing: -0.7px;
+}
+
+/* JARAK MENUJU FASILITAS */
