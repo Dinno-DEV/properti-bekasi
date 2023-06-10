@@ -69,7 +69,11 @@
 
 /* JARAK MENUJU FASILITAS */
 .jarak-positioner{
-    margin: 300px 10%;
+    margin-top: 300px;
+    flex-direction: column;
+}
+.display-flex{
+    justify-content: center;
 }
 .icon-group{
     flex-wrap: wrap;
@@ -79,6 +83,7 @@
 }
 .icon-wrapper{
     width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -104,7 +109,8 @@
 
 @media screen and (max-width: 850px){
     .jarak-positioner{
-        margin: 200px 0;
+        margin-top: 200px;
+        flex-direction: row;
     }
     .icon-group{
         margin: 0 0px;

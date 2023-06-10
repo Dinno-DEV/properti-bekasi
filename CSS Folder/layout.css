@@ -4,6 +4,9 @@
     width: fit-content;
 }
 
+.display-flex{
+    display: flex;
+}
 .flex-horizontal{
     display: flex;
 }
@@ -29,6 +32,10 @@
 .float-left{
     float: left;
 }
+
+.on-for-phone{
+    display: none;
+}
 @media screen and (max-width: 850px){
     .halved{
         width: 100%;
@@ -53,5 +60,11 @@
     }
     .phone-full-width{
         width: 100%;
+    }
+    .off-for-phone{
+        display: none;
+    }
+    .on-for-phone{
+        display: block;
     }
 }
