@@ -249,7 +249,7 @@ nav:hover ~ .safe-touch{
     height: 200px;
     border: 3px solid;
     border-radius: 100%;
-    background: url(/author.jpg) no-repeat scroll;
+    background: url(../author.jpg) no-repeat scroll;
     background-size: cover;
 }
 
