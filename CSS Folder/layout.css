@@ -15,6 +15,10 @@
     flex-direction: column;
 }
 
+.full-width{
+    float: left;
+    width: 100%;
+}
 .halved{
     float: left;
     width: 50%;
