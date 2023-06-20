@@ -142,6 +142,7 @@ nav:hover ~ .safe-touch{
     justify-content: space-between;
 }
 .project-list p{
+    width: 100px;
     padding: 15px;
 }
 .project-list div{
