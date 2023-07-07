@@ -57,6 +57,9 @@ nav{
     transform: translate(-300px);
     transition: transform 0.4s;
 }
+nav h1{
+    letter-spacing: 0px;
+}
 nav:hover{
     transform: translate(0);
 }
